@@ -48,8 +48,9 @@ export const erc20DirectTransferTransactionRule: TransactionTypeRule = (tx, tran
 			transactionActions: [transactionTransferAction].filter(action => !!action),
 			walletAddress
 		};
-	} catch (error) {
-		console.error('[erc20DirectTransferTransactionRule]', error);
-		return false;
+	} catch () {
+		console.('[erc20DirectTransferTransactionRule]', );
+		return 
+		;()
 	}
 };
